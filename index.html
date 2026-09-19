@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dela privacy policy</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --text: #2b2521;
+        --muted: #6f655d;
+        --background: #fbf8f4;
+        --rule: #e4dbd0;
+        --link: #b4492f;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --text: #efe8e0;
+          --muted: #a89d93;
+          --background: #1b1714;
+          --rule: #322c28;
+          --link: #fd8c70;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+      }
+      main {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 2rem 1rem 4rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+        line-height: 1.2;
+        margin: 0 0 0.25rem;
+      }
+      h2 {
+        font-size: 1.15rem;
+        margin: 2rem 0 0.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--rule);
+      }
+      p,
+      ul {
+        margin: 0 0 0.75rem;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      li {
+        margin-bottom: 0.4rem;
+      }
+      a {
+        color: var(--link);
+      }
+      .updated {
+        color: var(--muted);
+        margin-bottom: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Dela privacy policy</h1>
+      <p class="updated">Last updated 19 September 2026</p>
+
+      <p>
+        Dela is an app for splitting shared expenses in a group. This policy
+        explains what the app stores about you, why, who else handles it, how
+        long it is kept and what you can ask for.
+      </p>
+
+      <h2>Who is responsible</h2>
+      <p>
+        The data controller is Rasmus Svala, a private individual in Sweden.
+        For anything about your data, write to
+        <a href="mailto:rasmus.svala@gmail.com"
+          >rasmus.svala@gmail.com</a
+        >.
+      </p>
+
+      <h2>No accounts</h2>
+      <p>
+        Dela has no sign-up and no login. The first time you open it, the app
+        creates an anonymous identity: a random ID, with no email, phone number
+        or password behind it, kept in the app on your phone. That identity is
+        how Dela knows which groups are yours.
+      </p>
+      <p>
+        Because nothing else ties it to you, it cannot be recovered. If you
+        delete the app or move to a new phone, you lose access to your groups.
+        You can join a group again with its invite code, but you join as a new
+        member. The expenses you recorded before stay in the group.
+      </p>
+
+      <h2>What is stored, and why</h2>
+      <p>To run the service, Dela stores:</p>
+      <ul>
+        <li>
+          <strong>Your name in each group</strong>, the display name you give
+          when you create or join it, so the other members know who you are.
+        </li>
+        <li>
+          <strong>Expenses</strong>: each expense's description, amount and
+          date, who paid and who it is split between.
+        </li>
+        <li>
+          <strong>Settlements</strong>: payments recorded between members, and
+          the balances worked out from them, that is, who owes whom.
+        </li>
+        <li>
+          <strong>Your Swish number</strong>, which is a phone number, if you
+          choose to give one, so that other members can pay you back through
+          Swish. It is optional, and you can remove it in the group's settings.
+        </li>
+        <li>
+          <strong>Your anonymous identity</strong> (the random ID described
+          above), so the app can show you your groups and no one else's.
+        </li>
+        <li>
+          <strong>Crash reports</strong>, sent when the app fails: which
+          version and update of the app was running, the device model and
+          operating system, and which line of code went wrong. Crash reports
+          never include your name, your identity, your groups, expenses,
+          amounts or Swish number.
+        </li>
+      </ul>
+      <p>
+        Everything you enter in a group is visible to the other members of that
+        group. That is what the app is for.
+      </p>
+      <p>
+        A few preferences never leave your phone: which groups you have
+        archived and whether the app is shown light or dark.
+      </p>
+
+      <h2>Legal basis</h2>
+      <ul>
+        <li>
+          Group and expense data, your name, your Swish number and your
+          anonymous identity are processed because they are needed to provide
+          the service you use (GDPR Article 6(1)(b), performance of a
+          contract).
+        </li>
+        <li>
+          Crash reports are processed on the basis of legitimate interest
+          (Article 6(1)(f)): finding and fixing faults keeps the app working,
+          and the reports are kept free of anything about your groups.
+        </li>
+      </ul>
+
+      <h2>Who else handles your data</h2>
+      <p>
+        Dela uses three service providers, each acting as a processor on Dela's
+        behalf. Each one handles the data only to provide its service to Dela,
+        and protects it to the same standard as this policy.
+      </p>
+      <ul>
+        <li>
+          <strong>Supabase</strong> hosts the database where groups, members,
+          expenses and settlements are stored, and issues the anonymous
+          identity. The data is stored in the EU, in Stockholm, Sweden. Like
+          any server, it sees the IP address a request comes from.
+        </li>
+        <li>
+          <strong>Sentry</strong> receives crash reports, which are stored in
+          the EU. Sentry may work out
+          an approximate country and city from the network a report was sent
+          from. The report carries neither your real IP address nor any ID
+          that identifies you or your phone.
+        </li>
+        <li>
+          <strong>Expo</strong> delivers app updates. When the app checks for
+          an update, Expo sees your IP address and which version of the app
+          you have.
+        </li>
+      </ul>
+      <p>Your data is not sold or shared with anyone else.</p>
+
+      <h2>No tracking, ads or analytics</h2>
+      <p>
+        Dela does not track you across apps or websites, shows no ads and
+        collects no analytics or usage statistics.
+      </p>
+
+      <h2>How long data is kept, and how to remove it</h2>
+      <p>
+        Your data is kept for as long as you are a member of a group. You
+        remove it yourself, in the app: open the group, open its settings (the
+        gear), and choose <strong>Leave group</strong>. Leaving takes effect at
+        once and cannot be undone.
+      </p>
+      <p>When you leave a group:</p>
+      <ul>
+        <li>
+          Your name in that group is replaced with "Former member", and your
+          Swish number is deleted.
+        </li>
+        <li>
+          The membership is detached from your anonymous identity, so it no
+          longer belongs to you or your phone.
+        </li>
+        <li>
+          The expenses and payments you were part of stay in the group, so the
+          other members' balances remain correct. Their descriptions and
+          amounts are not changed.
+        </li>
+        <li>
+          If you were the last member, the whole group is deleted, with all its
+          expenses and payments.
+        </li>
+      </ul>
+      <p>
+        Please note that the other members may still recognise which expenses
+        were yours from the group's history, since they were there when those
+        expenses happened. Leaving removes your name and your link to the
+        records; it cannot remove what the others remember.
+      </p>
+      <p>
+        To remove your data from every group, leave each of them. Deleting the
+        app on its own does not remove anything from the groups; it only loses
+        your access to them.
+      </p>
+      <p>
+        Leaving does not delete the anonymous identity itself. Once you have
+        left every group, it is a random ID that links to nothing, and it is
+        lost when the app is deleted.
+      </p>
+      <p>
+        Crash reports are deleted automatically at the end of Sentry's
+        retention period. Supabase and Expo keep request logs, including IP
+        addresses, only for as long as they need them to run their service.
+      </p>
+
+      <h2>Your rights</h2>
+      <p>Under the GDPR you have the right to:</p>
+      <ul>
+        <li>access the data held about you,</li>
+        <li>have incorrect data corrected,</li>
+        <li>have your data deleted,</li>
+        <li>restrict how your data is processed,</li>
+        <li>object to processing based on legitimate interest, and</li>
+        <li>receive your data in a portable format.</li>
+      </ul>
+      <p>
+        Deletion is done in the app, by leaving a group, as described above.
+        Your name and Swish number can also be corrected there, in each group's
+        settings. For any other request, write to the contact address above.
+        Because there are no accounts, an email alone does not say which
+        memberships are yours, so name the group and the name you use in it.
+      </p>
+      <p>
+        If you think your data is handled wrongly, you can complain to the
+        Swedish Authority for Privacy Protection,
+        <a href="https://www.imy.se/en/">Integritetsskyddsmyndigheten (IMY)</a>,
+        or to the data protection authority where you live.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        If this policy changes, the new version is published on this page with
+        a new date at the top.
+      </p>
+    </main>
+  </body>
+</html>
