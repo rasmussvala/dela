@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dela support</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --text: #2b2521;
+        --muted: #6f655d;
+        --background: #fbf8f4;
+        --rule: #e4dbd0;
+        --link: #b4492f;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --text: #efe8e0;
+          --muted: #a89d93;
+          --background: #1b1714;
+          --rule: #322c28;
+          --link: #fd8c70;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+      }
+      main {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 2rem 1rem 4rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+        line-height: 1.2;
+        margin: 0 0 0.25rem;
+      }
+      h2 {
+        font-size: 1.15rem;
+        margin: 2rem 0 0.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--rule);
+      }
+      p,
+      ul {
+        margin: 0 0 0.75rem;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      li {
+        margin-bottom: 0.4rem;
+      }
+      a {
+        color: var(--link);
+      }
+      .intro {
+        color: var(--muted);
+        margin-bottom: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Dela support</h1>
+      <p class="intro">
+        Dela is an app for splitting shared expenses in a group.
+      </p>
+
+      <p>
+        For help with Dela, to report a problem or to suggest something, write
+        to
+        <a href="mailto:rasmus.svala@gmail.com"
+          >rasmus.svala@gmail.com</a
+        >.
+      </p>
+      <p>
+        It helps to say which version of Dela you have and what kind of phone.
+        The version is on the app's page: tap the three dots on the home
+        screen.
+      </p>
+      <p>
+        For questions about your data, see the
+        <a href="../">privacy policy</a>.
+      </p>
+    </main>
+  </body>
+</html>
