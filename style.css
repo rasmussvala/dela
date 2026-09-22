@@ -57,9 +57,13 @@ a {
 }
 nav {
   display: flex;
+  align-items: center;
   gap: 1.25rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--rule);
+}
+nav .icon {
+  border-radius: 22%;
 }
 nav a {
   padding: 0.5rem 0;
